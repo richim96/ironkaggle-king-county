@@ -6,3 +6,16 @@ and builds a machine learning model to predict sale prices — with a focus on p
 
 ## Installation
 Clone the repository, then run `uv sync` to install all the required dependencies locally.
+To add missing dependencies, run:
+```bash
+uv add pandas # for example
+```
+
+## Project structure
+- `data/`: Directory containing the dataset.
+  - `raw/`: Raw data files, including `king_country_houses.csv`.
+  - `processed/`: Processed data files (to train the models).
+- `eda.ipynb`: Notebook for exploratory data analysis and data preparation.
+- `model_training.ipynb`: Notebook for training the machine learning model.
+- `pyproject.toml`: Configuration file for the project dependencies and settings.
+
