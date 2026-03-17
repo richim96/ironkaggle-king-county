@@ -12,10 +12,11 @@ uv add pandas # for example
 ```
 
 ## Project structure
-- `data/`: Directory containing the dataset.
+- `data/`
   - `raw/`: Raw data files, including `king_country_houses.csv`.
   - `processed/`: Processed data files (to train the models).
-- `eda.ipynb`: Notebook for exploratory data analysis and data preparation.
-- `model_training.ipynb`: Notebook for training the machine learning model.
+- `notebooks/`
+  - `eda.ipynb`: Notebook for exploratory data analysis and data preparation.
+  - `model_training.ipynb`: Notebook for training the machine learning model.
 - `pyproject.toml`: Configuration file for the project dependencies and settings.
 
