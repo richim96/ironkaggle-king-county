@@ -19,4 +19,3 @@ uv add pandas # for example
   - `eda.ipynb`: Notebook for exploratory data analysis and data preparation.
   - `model_training.ipynb`: Notebook for training the machine learning model.
 - `pyproject.toml`: Configuration file for the project dependencies and settings.
-
