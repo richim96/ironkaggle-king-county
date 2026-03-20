@@ -13,7 +13,7 @@ uv add pandas # for example
 
 ## Project structure
 - `data/`
-  - `raw/`: Raw data files, including `king_country_houses.csv`.
+  - `raw/`: Raw data for analysis `king_country_houses.csv`.
   - `processed/`: Processed data files (to train the models).
 - `notebooks/`
   - `eda.ipynb`: Notebook for exploratory data analysis and data preparation.
